@@ -1,0 +1,17 @@
+=== Student Pass/Fail Predictor | Logistic Regression | with mid-term grades G1, G2 ===
+
+Student: A – steady performer
+  Predicted outcome : PASS   (P(pass) = 1.00, LOW risk)
+  Pushing toward FAIL: age (-0.78), Walc (-0.61), studytime (-0.45)
+  Pushing toward PASS: G2 (+5.03), G1 (+1.74), Fjob_teacher (+0.43)
+
+Student: B – borderline, falling grades
+  Predicted outcome : PASS   (P(pass) = 0.55, MODERATE risk)
+  Pushing toward FAIL: G2 (-2.01), age (-0.78), Walc (-0.61)
+  Pushing toward PASS: Fjob_teacher (+0.43), romantic_no (+0.37), Mjob_at_home (+0.30)
+
+Student: C – at risk
+  Predicted outcome : FAIL   (P(pass) = 0.00, HIGH risk)
+  Pushing toward FAIL: G2 (-6.71), G1 (-2.77), age (-0.78)
+  Pushing toward PASS: studytime (+0.48), Fjob_teacher (+0.43), romantic_no (+0.37)
+

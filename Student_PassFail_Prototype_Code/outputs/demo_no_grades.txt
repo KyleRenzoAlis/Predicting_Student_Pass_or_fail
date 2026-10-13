@@ -1,0 +1,17 @@
+=== Student Pass/Fail Predictor | Logistic Regression | early-warning (no grades) ===
+
+Student: A – steady performer
+  Predicted outcome : PASS   (P(pass) = 0.61, MODERATE risk)
+  Pushing toward FAIL: goout (-0.45), schoolsup_yes (-0.41), age (-0.33)
+  Pushing toward PASS: Fjob_teacher (+0.41), failures (+0.29), famsup_no (+0.29)
+
+Student: B – borderline, falling grades
+  Predicted outcome : FAIL   (P(pass) = 0.33, HIGH risk)
+  Pushing toward FAIL: failures (-0.58), goout (-0.45), schoolsup_yes (-0.41)
+  Pushing toward PASS: Fjob_teacher (+0.41), famsup_no (+0.29), higher_yes (+0.28)
+
+Student: C – at risk
+  Predicted outcome : FAIL   (P(pass) = 0.08, HIGH risk)
+  Pushing toward FAIL: failures (-1.44), goout (-0.45), schoolsup_yes (-0.41)
+  Pushing toward PASS: Fjob_teacher (+0.41), famsup_no (+0.29), Pstatus_A (+0.20)
+

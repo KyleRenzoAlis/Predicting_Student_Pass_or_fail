@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+python-docx   # only needed to rebuild the paper
